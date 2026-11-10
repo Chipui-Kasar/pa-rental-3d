@@ -5,5 +5,8 @@ const nextConfig: NextConfig = {
   cacheComponents: true,
   partialPrefetching: true,
 };
+module.exports = {
+  allowedDevOrigins: ["192.168.29.96"],
+};
 
 export default nextConfig;
